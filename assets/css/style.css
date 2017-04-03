@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Test */
+
+body{
+    margin:0;
+    background-color: #E5E5E5;
+    font-family: "Open Sans", "Helvetica Neue UltraLight", Arial, sans-serif;
+    font-size: 12px;
+    /*background-image:url(links/background.png)*/
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #6f5c43;
+}
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+
+/* Header */
+
+.header {
+    padding: 10px 0;
+    padding-top: 30px;
+    position: fixed;
+    width: 100%;
+    background-color: #BBAB8F;
+    margin-top: -20px;
+}
+.header.navbar-fixed-top {
+  background: #E5E5E5;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.header #typelogo {
+  margin: 0;
+  font-size: 26px;
+}
+.header .main-nav .nav .nav-item {
+  margin-right: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #bbab8f;
+  background: none;
+}
+.header .main-nav .nav .nav-item a {
+  color: #6f5c43;
+  font-size: 14px;
+  padding: 15px 10px;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #000;
+  background: none;
+}
+.header .main-nav .nav .nav-item.last {
+  margin-right: 0;
+}
+
+/* Sections */
+
+.home {
+    padding: 180px 0;
+    background: #BBAB8F;
+}
+.about {
+    padding: 80px 0;
+    background: #E5E5E5;
+}
+#map {
+    width: 700px;
+    height: 450px;
+}
+.farmtable {
+    padding: 80px 0;
+    background: #BBAB8F;
+}
+.nutsbolts {
+    padding: 80px 0;
+    background: #E5E5E5;
+}
+.footer {
+    padding: 80px 0;
+    background: #BBAB8F;
+}  
+.footer .copyright {
+    margin-left: 50px;
+}
+.footer .small-logo {
+    position: relative;
+    top: 45px;
+}
